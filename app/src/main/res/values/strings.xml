@@ -41,6 +41,10 @@
     // real ids
 
 
+    // map
+    <string name="maps_key" translatable="false">Your_Key</string>
+    <string name="API_WEATHER_KEY" translatable="false">Your_Key</string>
+
     // test ids
     <string name="APPID_ADDS" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="AddFullScreen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
