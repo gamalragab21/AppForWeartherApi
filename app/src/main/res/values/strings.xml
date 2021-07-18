@@ -42,7 +42,7 @@
 
 
     // test ids
-<!--    <string name="APPID_ADDS" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
-<!--    <string name="AddFullScreen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
-<!--    <string name="AddBanner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="APPID_ADDS" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="AddFullScreen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="AddBanner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
 </resources>
