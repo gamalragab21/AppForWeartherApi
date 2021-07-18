@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="myappnew.com.appforweartherapi.ui.fragments.HomeFragment"
+        android:label="HomeFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="myappnew.com.appforweartherapi.ui.fragments.AlertFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/SavedFragment"
+        android:name="myappnew.com.appforweartherapi.ui.fragments.SavedFragment"
+        android:label="SavedFragment" >
+        <action
+            android:id="@+id/action_SavedFragment_to_homeOtherCityFragment"
+            app:destination="@id/homeOtherCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="myappnew.com.appforweartherapi.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="myappnew.com.appforweartherapi.ui.fragments.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+
+        <action
+            android:id="@+id/action_mapsFragment_to_homeOtherCityFragment"
+            app:destination="@id/homeOtherCityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeOtherCityFragment"
+        tools:layout="@layout/home_fragment"
+         android:name="myappnew.com.appforweartherapi.ui.fragments.HomeOtherCityFragment"
+        android:label="HomeOtherCityFragment" >
+        <argument
+            android:name="location"
+            app:argType="myappnew.com.appforweartherapi.model.Location"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>

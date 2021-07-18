@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/dark_gray"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flFragmentContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/navHostFragment"
+            android:paddingBottom="@dimen/_35sdp"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/main_nav_graph"
+            />
+
+    </FrameLayout>
+    <com.github.matteobattilana.weather.WeatherView
+        android:id="@+id/wvWeatherView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<com.google.android.material.bottomappbar.BottomAppBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:id="@+id/bottomAppBar"
+    app:fabCradleMargin="@dimen/_10sdp"
+    app:fabCradleRoundedCornerRadius="@dimen/_20sdp"
+    app:fabCradleVerticalOffset="0dp"
+    android:foregroundTint="@color/black"
+    >
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottomNavigationView"
+        android:layout_marginEnd="@dimen/_16sdp"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@drawable/bottom_nav_selector"
+        android:background="#00000000"/>
+</com.google.android.material.bottomappbar.BottomAppBar>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNewlocation"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location_light"
+        app:layout_anchor="@id/bottomAppBar"
+        android:background="@color/white"
+        app:backgroundTint="@color/blue"
+        app:maxImageSize="35dp"
+        android:contentDescription="Address From Map" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

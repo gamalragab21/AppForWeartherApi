@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="pressure">الضغط</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="wind">الرياح</string>
+    <string name="cloud">السحب</string>
+    <string name="ultra_violet">فوق البنفسجية</string>
+    <string name="home">الرئيسية</string>
+    <string name="alerts">التنبيهات</string>
+    <string name="favorites">المفضلة</string>
+    <string name="visibility">الرؤية</string>
+    <string name="save">حفظ</string>
+    <string name="tomorrow">غداً</string>
+    <string name="language">اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="temperature">الحرارة</string>
+    <string name="celsius">سيليزيس</string>
+    <string name="kelvin">كيلفن</string>
+    <string name="fahrenheit">فيهرنهايت</string>
+    <string name="wind_speed">سرعة الرياح</string>
+    <string name="meter_sec">متر / ثانية</string>
+    <string name="mile_hour">ميل / ساعة</string>
+    <string name="delete">حذف</string>
+    <string name="m_s">م/ث</string>
+    <string name="mph">ميل/س</string>
+    <string name="hpa">ه.ب.ا</string>
+    <string name="meter">م</string>
+    <string name="no_internet_connection">لا يوجد إتصال بالإنترنت</string>
+    <string name="unknown">غير معروف</string>
+    <string name="initial_setup">الإعدادات اﻷولية</string>
+    <string name="invaild_city">موقع غير معروف </string>
+    <string name="search_favourite">ابحث عن الأماكن المفضلة</string>
+    <string name="selcte_any_location">اختر موقعا</string>
+    <string name="search_alert">بحث عن التنبيهات</string>
+    <string name="no_alerts">لا يوجد تنبيهات</string>
+    <string name="no_places">لا يوجد أماكن</string>
+    <string name="denied_message">إذا رفضت الإذن ، فلا يمكنك استخدام هذه الخدمة \ n \ n الرجاء تشغيل الأذونات في [الإعداد]> [الإذن]</string>
+    <string name="Skip">تخطى</string>
+
+</resources>

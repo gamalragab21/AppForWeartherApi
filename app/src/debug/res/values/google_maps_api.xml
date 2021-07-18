@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=D2:D0:29:7D:E5:E0:C2:6A:3B:87:3F:60:28:2C:C1:0F:F2:90:A1:B6%3Bmyappnew.com.appforweartherapi.ui.fragments
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    myappnew.com.appforweartherapi.ui.fragments
+
+    SHA-1 certificate fingerprint:
+    D2:D0:29:7D:E5:E0:C2:6A:3B:87:3F:60:28:2C:C1:0F:F2:90:A1:B6
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDlwn3GWqRyFp5_xgnjuCv0Hz1UqDCifP4</string>
+</resources>

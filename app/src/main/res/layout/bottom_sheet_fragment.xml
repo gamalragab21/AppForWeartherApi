@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_bottom_sheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="@string/unknown"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:singleLine="true"
+        android:text="@string/unknown"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvCity"
+        app:layout_constraintTop_toBottomOf="@+id/tvCity" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaveLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/gradient_square"
+        android:text="@string/save"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnSkipLocation"
+        app:layout_constraintStart_toStartOf="parent"
+/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSkipLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/gradient_square"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/Skip"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnSaveLocation"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+</androidx.constraintlayout.widget.ConstraintLayout>

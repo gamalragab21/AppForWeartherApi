@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Weather City</string>
+    <string name="invaild_city">Unknown Location</string>
+    <string name="hpa">hpa</string>
+    <string name="meter">m</string>
+    <string name="m_s">m/s</string>
+    <string name="mph">mph</string>
+    <string name="denied_message">If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="unknown">Unknown</string>
+    <string name="save">Save</string>
+    <string name="no_places">No Places</string>
+    <string name="delete">Delete</string>
+    <string name="search_favourite">Search Favourite Places</string>
+    <string name="home">Home</string>
+    <string name="selcte_any_location">Select Location</string>
+    <string name="no_alerts">No alerts</string>
+    <string name="alerts">Alerts</string>
+    <string name="initial_setup">Initialize Settings</string>
+    <string name="search_alert">Search Alert</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="cloud">Cloud</string>
+    <string name="ultra_violet">Ultra Violet</string>
+    <string name="favorites">Favorites</string>
+    <string name="visibility">Visibility</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="temperature">Temperature</string>
+    <string name="celsius">Celsius</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="meter_sec">Meter / Sec</string>
+    <string name="mile_hour">Mile / Hour</string>
+    <string name="Skip">Skip</string>
+
+    // real ids
+
+
+    // test ids
+<!--    <string name="APPID_ADDS" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="AddFullScreen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="AddBanner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+</resources>
